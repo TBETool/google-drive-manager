@@ -1,0 +1,22 @@
+{
+    "name": "tbetool/google-drive-manager",
+    "type": "library",
+    "description": "Based on Google PHP SDK. Enables using upload and download to Google Drive.",
+    "keywords": ["google drive", "google-php-sdk", "drive-sdk-php", "drive-php-service", "the born engineer", "Anuj Sharma", "TBE", "Anuj TBE"],
+    "homepage": "http://anujsh.in",
+    "authors": [
+        {
+            "name": "Anuj Sharma",
+            "email": "contact@anujsh.in",
+            "homepage": "https://anujsh.in",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"TBETool\\": "src/"}
+    }
+}
