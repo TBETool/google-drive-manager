@@ -6,8 +6,9 @@
  * Time: 5:34 PM
  */
 
-namespace App\Library;
-use Aura\Intl\Exception;
+namespace TBETool;
+
+use Exception;
 use Google_Client;
 use Google_Service_Drive;
 use Google_Service_Exception;
